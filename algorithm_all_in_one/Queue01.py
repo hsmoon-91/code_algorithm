@@ -15,5 +15,5 @@ q.popleft() # [1, 2, 3]
 q.popleft() # [2, 3]
 print(q)
 q.pop() # [2]
-print(q)
+
 
