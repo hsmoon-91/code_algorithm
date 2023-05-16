@@ -13,5 +13,5 @@ while(n > all_sum) :
     all_sum += max(new_x)
     cnt += 1
     del new_x[:(max(new_x))]
-        
+
 print(cnt)
