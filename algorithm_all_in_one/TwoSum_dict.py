@@ -1,3 +1,5 @@
+# hash table / dictionary / array list based
+
 def two_sum(nums, target):
     memo = {} # 딕셔너리 선언
     for v in nums:
