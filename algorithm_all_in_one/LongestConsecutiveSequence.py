@@ -6,6 +6,9 @@ def LongestConsecutiveSewuence(nums):
     for num in nums:
         num_dict[num] = True
         
+    # 해쉬셋
+    num_dict = set(nums)
+        
     for num in num_dict:
         if num-1 not in num_dict :
             cnt = 1
